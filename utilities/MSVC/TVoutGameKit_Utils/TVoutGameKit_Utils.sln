@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "crunch_tileset", "..\crunch_tileset\crunch_tileset.vcxproj", "{3DD3F3AD-1DD1-46C8-8C7F-55C0AB743E24}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "crunch_sprites", "crunch_sprites\crunch_sprites.vcxproj", "{7548190A-28EB-48F2-A26C-9A9103ED97FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DD3F3AD-1DD1-46C8-8C7F-55C0AB743E24}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DD3F3AD-1DD1-46C8-8C7F-55C0AB743E24}.Debug|Win32.Build.0 = Debug|Win32
+		{3DD3F3AD-1DD1-46C8-8C7F-55C0AB743E24}.Release|Win32.ActiveCfg = Release|Win32
+		{3DD3F3AD-1DD1-46C8-8C7F-55C0AB743E24}.Release|Win32.Build.0 = Release|Win32
+		{7548190A-28EB-48F2-A26C-9A9103ED97FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7548190A-28EB-48F2-A26C-9A9103ED97FC}.Debug|Win32.Build.0 = Debug|Win32
+		{7548190A-28EB-48F2-A26C-9A9103ED97FC}.Release|Win32.ActiveCfg = Release|Win32
+		{7548190A-28EB-48F2-A26C-9A9103ED97FC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
