@@ -1,16 +1,10 @@
 # TVOutGameToolKit - WIP NTSC game video library for AVR 328P
 
-The TVGTK library was derived (i.e., hacked mercilessly)
-from tvout-arduino (see https://github.com/Avamander/arduino-tvout)
-to see what kind of tiled rendering (aka character graphics)
-the Arduino is capable of.  Because of this, I have kept Myles Metzer's
-copyright and license intact (even if not too much original code is left).
-I would like to thank Myles Metzer for releasing his excellent library as
-open-source allowing me to do this (as it is highly unlikely I would have
-been able to do this without being able to examine and experiment with his
-library - and knowing it is even possible to generate video this way).
-
 This has been banging around in my home Perforce for years, so I am tossing it out onto GitHub by request (totally messy WIP).  It sure was a fun project to get very familiar with AVR assembly (and cycle times).
+
+![AVR NTSC Sprite Test](NTSC_Sprite_Test.jpg)
+
+The TVGTK library was derived (i.e., hacked mercilessly) from tvout-arduino (see  ttps://github.com/Avamander/arduino-tvout) to see what kind of tiled rendering (aka character graphics) the Arduino is capable of.  Because of this, I have kept Myles Metzer's copyright and license intact (even if not too much  riginal code is left). I would like to thank Myles Metzer for releasing his excellent library as open-source allowing me to do this (as it is highly unlikely I would have been able to do this without being able to examine and experiment with his library - and knowing it was even possible to generate video this way).
 
 *WARNING:* This project contains severe "abuse" of GCC AVR inline assembly and the preprocessor.  For amusement only.
 
